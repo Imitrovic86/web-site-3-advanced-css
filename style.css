@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+.negative {
+    color: #fff;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.top {
+    background-color: #bea382;
+    padding: 5px 0;
+    color: #fff;
+}
+.top p {
+    margin: 0;
+}
+.nav {
+    background-color: #000;
+    padding: 10px 0;
+}
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+.hero {
+    background-image: url(placeholder-restaurants.webp);
+    padding: 200px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-bottom: 6px solid #999;
+    padding: 200px 0;
+}
+.main .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.mainimg {
+    flex-basis: 30%;
+   
+
+}
+.maintext {
+    flex-basis: 30%;
+    flex-grow: 1;
+}
+.main {
+    padding: 30px 0;
+}
